@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F15ABFFC24C094D40067D0DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15ABFFB24C094D40067D0DB /* AppDelegate.swift */; };
+		F15ABFFE24C094D40067D0DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15ABFFD24C094D40067D0DB /* ViewController.swift */; };
+		F15AC00024C094D40067D0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15ABFFF24C094D40067D0DB /* Assets.xcassets */; };
+		F15AC00324C094D40067D0DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15AC00124C094D40067D0DB /* Main.storyboard */; };
+		F15AC00F24C094D40067D0DB /* VRCMakerXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15AC00E24C094D40067D0DB /* VRCMakerXTests.swift */; };
+		F15AC01A24C094D40067D0DB /* VRCMakerXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15AC01924C094D40067D0DB /* VRCMakerXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F15AC00B24C094D40067D0DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15ABFF024C094D30067D0DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15ABFF724C094D40067D0DB;
+			remoteInfo = VRCMakerX;
+		};
+		F15AC01624C094D40067D0DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15ABFF024C094D30067D0DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15ABFF724C094D40067D0DB;
+			remoteInfo = VRCMakerX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F15ABFF824C094D40067D0DB /* VRCMakerX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRCMakerX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15ABFFB24C094D40067D0DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F15ABFFD24C094D40067D0DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F15ABFFF24C094D40067D0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F15AC00224C094D40067D0DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F15AC00424C094D40067D0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15AC00524C094D40067D0DB /* VRCMakerX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VRCMakerX.entitlements; sourceTree = "<group>"; };
+		F15AC00A24C094D40067D0DB /* VRCMakerXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRCMakerXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15AC00E24C094D40067D0DB /* VRCMakerXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRCMakerXTests.swift; sourceTree = "<group>"; };
+		F15AC01024C094D40067D0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15AC01524C094D40067D0DB /* VRCMakerXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRCMakerXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15AC01924C094D40067D0DB /* VRCMakerXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRCMakerXUITests.swift; sourceTree = "<group>"; };
+		F15AC01B24C094D40067D0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F15ABFF524C094D40067D0DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15AC00724C094D40067D0DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15AC01224C094D40067D0DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F15ABFEF24C094D30067D0DB = {
+			isa = PBXGroup;
+			children = (
+				F15ABFFA24C094D40067D0DB /* VRCMakerX */,
+				F15AC00D24C094D40067D0DB /* VRCMakerXTests */,
+				F15AC01824C094D40067D0DB /* VRCMakerXUITests */,
+				F15ABFF924C094D40067D0DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F15ABFF924C094D40067D0DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F15ABFF824C094D40067D0DB /* VRCMakerX.app */,
+				F15AC00A24C094D40067D0DB /* VRCMakerXTests.xctest */,
+				F15AC01524C094D40067D0DB /* VRCMakerXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F15ABFFA24C094D40067D0DB /* VRCMakerX */ = {
+			isa = PBXGroup;
+			children = (
+				F15ABFFB24C094D40067D0DB /* AppDelegate.swift */,
+				F15ABFFD24C094D40067D0DB /* ViewController.swift */,
+				F15ABFFF24C094D40067D0DB /* Assets.xcassets */,
+				F15AC00124C094D40067D0DB /* Main.storyboard */,
+				F15AC00424C094D40067D0DB /* Info.plist */,
+				F15AC00524C094D40067D0DB /* VRCMakerX.entitlements */,
+			);
+			path = VRCMakerX;
+			sourceTree = "<group>";
+		};
+		F15AC00D24C094D40067D0DB /* VRCMakerXTests */ = {
+			isa = PBXGroup;
+			children = (
+				F15AC00E24C094D40067D0DB /* VRCMakerXTests.swift */,
+				F15AC01024C094D40067D0DB /* Info.plist */,
+			);
+			path = VRCMakerXTests;
+			sourceTree = "<group>";
+		};
+		F15AC01824C094D40067D0DB /* VRCMakerXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F15AC01924C094D40067D0DB /* VRCMakerXUITests.swift */,
+				F15AC01B24C094D40067D0DB /* Info.plist */,
+			);
+			path = VRCMakerXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F15ABFF724C094D40067D0DB /* VRCMakerX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15AC01E24C094D40067D0DB /* Build configuration list for PBXNativeTarget "VRCMakerX" */;
+			buildPhases = (
+				F15ABFF424C094D40067D0DB /* Sources */,
+				F15ABFF524C094D40067D0DB /* Frameworks */,
+				F15ABFF624C094D40067D0DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRCMakerX;
+			productName = VRCMakerX;
+			productReference = F15ABFF824C094D40067D0DB /* VRCMakerX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F15AC00924C094D40067D0DB /* VRCMakerXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15AC02124C094D40067D0DB /* Build configuration list for PBXNativeTarget "VRCMakerXTests" */;
+			buildPhases = (
+				F15AC00624C094D40067D0DB /* Sources */,
+				F15AC00724C094D40067D0DB /* Frameworks */,
+				F15AC00824C094D40067D0DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15AC00C24C094D40067D0DB /* PBXTargetDependency */,
+			);
+			name = VRCMakerXTests;
+			productName = VRCMakerXTests;
+			productReference = F15AC00A24C094D40067D0DB /* VRCMakerXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F15AC01424C094D40067D0DB /* VRCMakerXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15AC02424C094D40067D0DB /* Build configuration list for PBXNativeTarget "VRCMakerXUITests" */;
+			buildPhases = (
+				F15AC01124C094D40067D0DB /* Sources */,
+				F15AC01224C094D40067D0DB /* Frameworks */,
+				F15AC01324C094D40067D0DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15AC01724C094D40067D0DB /* PBXTargetDependency */,
+			);
+			name = VRCMakerXUITests;
+			productName = VRCMakerXUITests;
+			productReference = F15AC01524C094D40067D0DB /* VRCMakerXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F15ABFF024C094D30067D0DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "kitu Kuro";
+				TargetAttributes = {
+					F15ABFF724C094D40067D0DB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F15AC00924C094D40067D0DB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F15ABFF724C094D40067D0DB;
+					};
+					F15AC01424C094D40067D0DB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F15ABFF724C094D40067D0DB;
+					};
+				};
+			};
+			buildConfigurationList = F15ABFF324C094D30067D0DB /* Build configuration list for PBXProject "VRCMakerX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F15ABFEF24C094D30067D0DB;
+			productRefGroup = F15ABFF924C094D40067D0DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F15ABFF724C094D40067D0DB /* VRCMakerX */,
+				F15AC00924C094D40067D0DB /* VRCMakerXTests */,
+				F15AC01424C094D40067D0DB /* VRCMakerXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F15ABFF624C094D40067D0DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15AC00024C094D40067D0DB /* Assets.xcassets in Resources */,
+				F15AC00324C094D40067D0DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15AC00824C094D40067D0DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15AC01324C094D40067D0DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F15ABFF424C094D40067D0DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15ABFFE24C094D40067D0DB /* ViewController.swift in Sources */,
+				F15ABFFC24C094D40067D0DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15AC00624C094D40067D0DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15AC00F24C094D40067D0DB /* VRCMakerXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15AC01124C094D40067D0DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15AC01A24C094D40067D0DB /* VRCMakerXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F15AC00C24C094D40067D0DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15ABFF724C094D40067D0DB /* VRCMakerX */;
+			targetProxy = F15AC00B24C094D40067D0DB /* PBXContainerItemProxy */;
+		};
+		F15AC01724C094D40067D0DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15ABFF724C094D40067D0DB /* VRCMakerX */;
+			targetProxy = F15AC01624C094D40067D0DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F15AC00124C094D40067D0DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15AC00224C094D40067D0DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F15AC01C24C094D40067D0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F15AC01D24C094D40067D0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F15AC01F24C094D40067D0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VRCMakerX/VRCMakerX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VRCMakerX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VtuberMusic.VRCMakerX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F15AC02024C094D40067D0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VRCMakerX/VRCMakerX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VRCMakerX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VtuberMusic.VRCMakerX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F15AC02224C094D40067D0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VRCMakerXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = VtuberMusic.VRCMakerXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRCMakerX.app/Contents/MacOS/VRCMakerX";
+			};
+			name = Debug;
+		};
+		F15AC02324C094D40067D0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VRCMakerXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = VtuberMusic.VRCMakerXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRCMakerX.app/Contents/MacOS/VRCMakerX";
+			};
+			name = Release;
+		};
+		F15AC02524C094D40067D0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VRCMakerXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VtuberMusic.VRCMakerXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VRCMakerX;
+			};
+			name = Debug;
+		};
+		F15AC02624C094D40067D0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VRCMakerXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VtuberMusic.VRCMakerXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VRCMakerX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F15ABFF324C094D30067D0DB /* Build configuration list for PBXProject "VRCMakerX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15AC01C24C094D40067D0DB /* Debug */,
+				F15AC01D24C094D40067D0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15AC01E24C094D40067D0DB /* Build configuration list for PBXNativeTarget "VRCMakerX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15AC01F24C094D40067D0DB /* Debug */,
+				F15AC02024C094D40067D0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15AC02124C094D40067D0DB /* Build configuration list for PBXNativeTarget "VRCMakerXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15AC02224C094D40067D0DB /* Debug */,
+				F15AC02324C094D40067D0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15AC02424C094D40067D0DB /* Build configuration list for PBXNativeTarget "VRCMakerXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15AC02524C094D40067D0DB /* Debug */,
+				F15AC02624C094D40067D0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F15ABFF024C094D30067D0DB /* Project object */;
+}
