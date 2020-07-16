@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4D90875A62753EEA8A69F3B /* Pods_VRCMakerX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F73D8A54B0B0ED74F346C2B /* Pods_VRCMakerX.framework */; };
 		F15ABFFC24C094D40067D0DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15ABFFB24C094D40067D0DB /* AppDelegate.swift */; };
 		F15ABFFE24C094D40067D0DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15ABFFD24C094D40067D0DB /* ViewController.swift */; };
 		F15AC00024C094D40067D0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15ABFFF24C094D40067D0DB /* Assets.xcassets */; };
 		F15AC00324C094D40067D0DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15AC00124C094D40067D0DB /* Main.storyboard */; };
 		F15AC00F24C094D40067D0DB /* VRCMakerXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15AC00E24C094D40067D0DB /* VRCMakerXTests.swift */; };
 		F15AC01A24C094D40067D0DB /* VRCMakerXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15AC01924C094D40067D0DB /* VRCMakerXUITests.swift */; };
+		F15AC02824C0ADC50067D0DB /* LyricConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15AC02724C0ADC50067D0DB /* LyricConvert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F73D8A54B0B0ED74F346C2B /* Pods_VRCMakerX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRCMakerX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		411B493D3E55F5EE33251CCC /* Pods-VRCMakerX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRCMakerX.debug.xcconfig"; path = "Target Support Files/Pods-VRCMakerX/Pods-VRCMakerX.debug.xcconfig"; sourceTree = "<group>"; };
+		622B7AB1401A0EBE739ECB31 /* Pods-VRCMakerX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRCMakerX.release.xcconfig"; path = "Target Support Files/Pods-VRCMakerX/Pods-VRCMakerX.release.xcconfig"; sourceTree = "<group>"; };
 		F15ABFF824C094D40067D0DB /* VRCMakerX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRCMakerX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15ABFFB24C094D40067D0DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F15ABFFD24C094D40067D0DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +51,7 @@
 		F15AC01524C094D40067D0DB /* VRCMakerXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRCMakerXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15AC01924C094D40067D0DB /* VRCMakerXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRCMakerXUITests.swift; sourceTree = "<group>"; };
 		F15AC01B24C094D40067D0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15AC02724C0ADC50067D0DB /* LyricConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricConvert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D90875A62753EEA8A69F3B /* Pods_VRCMakerX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07B956B97187BAA422CBB2C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F73D8A54B0B0ED74F346C2B /* Pods_VRCMakerX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A4ADA0D47B22283FF0CCECE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				411B493D3E55F5EE33251CCC /* Pods-VRCMakerX.debug.xcconfig */,
+				622B7AB1401A0EBE739ECB31 /* Pods-VRCMakerX.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F15ABFEF24C094D30067D0DB = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +105,8 @@
 				F15AC00D24C094D40067D0DB /* VRCMakerXTests */,
 				F15AC01824C094D40067D0DB /* VRCMakerXUITests */,
 				F15ABFF924C094D40067D0DB /* Products */,
+				2A4ADA0D47B22283FF0CCECE /* Pods */,
+				07B956B97187BAA422CBB2C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +127,7 @@
 				F15ABFFD24C094D40067D0DB /* ViewController.swift */,
 				F15ABFFF24C094D40067D0DB /* Assets.xcassets */,
 				F15AC00124C094D40067D0DB /* Main.storyboard */,
+				F15AC02724C0ADC50067D0DB /* LyricConvert.swift */,
 				F15AC00424C094D40067D0DB /* Info.plist */,
 				F15AC00524C094D40067D0DB /* VRCMakerX.entitlements */,
 			);
@@ -131,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F15AC01E24C094D40067D0DB /* Build configuration list for PBXNativeTarget "VRCMakerX" */;
 			buildPhases = (
+				51D1EB2B24E1755B666F204E /* [CP] Check Pods Manifest.lock */,
 				F15ABFF424C094D40067D0DB /* Sources */,
 				F15ABFF524C094D40067D0DB /* Frameworks */,
 				F15ABFF624C094D40067D0DB /* Resources */,
+				9D6D24134C9D3609622A3997 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,11 +279,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51D1EB2B24E1755B666F204E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VRCMakerX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D6D24134C9D3609622A3997 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VRCMakerX/Pods-VRCMakerX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VRCMakerX/Pods-VRCMakerX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VRCMakerX/Pods-VRCMakerX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F15ABFF424C094D40067D0DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15AC02824C0ADC50067D0DB /* LyricConvert.swift in Sources */,
 				F15ABFFE24C094D40067D0DB /* ViewController.swift in Sources */,
 				F15ABFFC24C094D40067D0DB /* AppDelegate.swift in Sources */,
 			);
@@ -352,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -406,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -417,6 +490,7 @@
 		};
 		F15AC01F24C094D40067D0DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 411B493D3E55F5EE33251CCC /* Pods-VRCMakerX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = VRCMakerX/VRCMakerX.entitlements;
@@ -427,7 +501,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = VtuberMusic.VRCMakerX;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VtuberMusic.VRCMakerX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -435,6 +510,7 @@
 		};
 		F15AC02024C094D40067D0DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 622B7AB1401A0EBE739ECB31 /* Pods-VRCMakerX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = VRCMakerX/VRCMakerX.entitlements;
@@ -445,7 +521,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = VtuberMusic.VRCMakerX;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = org.VtuberMusic.VRCMakerX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

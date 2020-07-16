@@ -12,6 +12,8 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        mixlrc2vrc(oritxt: "23333")
 
         // Do any additional setup after loading the view.
     }
