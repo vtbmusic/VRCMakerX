@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A4D90875A62753EEA8A69F3B /* Pods_VRCMakerX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F73D8A54B0B0ED74F346C2B /* Pods_VRCMakerX.framework */; };
+		F1489C8F24C255EF00B3CFEB /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1489C8E24C255EF00B3CFEB /* Dialog.swift */; };
+		F1489C9124C2693B00B3CFEB /* TextScrollerBind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1489C9024C2693B00B3CFEB /* TextScrollerBind.swift */; };
 		F15ABFFC24C094D40067D0DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15ABFFB24C094D40067D0DB /* AppDelegate.swift */; };
 		F15ABFFE24C094D40067D0DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15ABFFD24C094D40067D0DB /* ViewController.swift */; };
 		F15AC00024C094D40067D0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15ABFFF24C094D40067D0DB /* Assets.xcassets */; };
@@ -15,6 +17,7 @@
 		F15AC00F24C094D40067D0DB /* VRCMakerXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15AC00E24C094D40067D0DB /* VRCMakerXTests.swift */; };
 		F15AC01A24C094D40067D0DB /* VRCMakerXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15AC01924C094D40067D0DB /* VRCMakerXUITests.swift */; };
 		F15AC02824C0ADC50067D0DB /* LyricConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15AC02724C0ADC50067D0DB /* LyricConvert.swift */; };
+		F1757FBD24C0CB2F0026D58D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1757FBC24C0CB2F0026D58D /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,8 @@
 		0F73D8A54B0B0ED74F346C2B /* Pods_VRCMakerX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRCMakerX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		411B493D3E55F5EE33251CCC /* Pods-VRCMakerX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRCMakerX.debug.xcconfig"; path = "Target Support Files/Pods-VRCMakerX/Pods-VRCMakerX.debug.xcconfig"; sourceTree = "<group>"; };
 		622B7AB1401A0EBE739ECB31 /* Pods-VRCMakerX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRCMakerX.release.xcconfig"; path = "Target Support Files/Pods-VRCMakerX/Pods-VRCMakerX.release.xcconfig"; sourceTree = "<group>"; };
+		F1489C8E24C255EF00B3CFEB /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
+		F1489C9024C2693B00B3CFEB /* TextScrollerBind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScrollerBind.swift; sourceTree = "<group>"; };
 		F15ABFF824C094D40067D0DB /* VRCMakerX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRCMakerX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15ABFFB24C094D40067D0DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F15ABFFD24C094D40067D0DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +57,7 @@
 		F15AC01924C094D40067D0DB /* VRCMakerXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRCMakerXUITests.swift; sourceTree = "<group>"; };
 		F15AC01B24C094D40067D0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F15AC02724C0ADC50067D0DB /* LyricConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricConvert.swift; sourceTree = "<group>"; };
+		F1757FBC24C0CB2F0026D58D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +100,6 @@
 				411B493D3E55F5EE33251CCC /* Pods-VRCMakerX.debug.xcconfig */,
 				622B7AB1401A0EBE739ECB31 /* Pods-VRCMakerX.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -125,8 +130,11 @@
 			children = (
 				F15ABFFB24C094D40067D0DB /* AppDelegate.swift */,
 				F15ABFFD24C094D40067D0DB /* ViewController.swift */,
-				F15ABFFF24C094D40067D0DB /* Assets.xcassets */,
+				F1489C9024C2693B00B3CFEB /* TextScrollerBind.swift */,
 				F15AC00124C094D40067D0DB /* Main.storyboard */,
+				F1489C8E24C255EF00B3CFEB /* Dialog.swift */,
+				F1757FBC24C0CB2F0026D58D /* File.swift */,
+				F15ABFFF24C094D40067D0DB /* Assets.xcassets */,
 				F15AC02724C0ADC50067D0DB /* LyricConvert.swift */,
 				F15AC00424C094D40067D0DB /* Info.plist */,
 				F15AC00524C094D40067D0DB /* VRCMakerX.entitlements */,
@@ -217,7 +225,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "kitu Kuro";
 				TargetAttributes = {
 					F15ABFF724C094D40067D0DB = {
@@ -327,8 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F15AC02824C0ADC50067D0DB /* LyricConvert.swift in Sources */,
+				F1489C8F24C255EF00B3CFEB /* Dialog.swift in Sources */,
 				F15ABFFE24C094D40067D0DB /* ViewController.swift in Sources */,
+				F1489C9124C2693B00B3CFEB /* TextScrollerBind.swift in Sources */,
 				F15ABFFC24C094D40067D0DB /* AppDelegate.swift in Sources */,
+				F1757FBD24C0CB2F0026D58D /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = VRCMakerX/VRCMakerX.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = VRCMakerX/Info.plist;
@@ -514,6 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = VRCMakerX/VRCMakerX.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = VRCMakerX/Info.plist;
